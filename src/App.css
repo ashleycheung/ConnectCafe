@@ -1,0 +1,22 @@
+/* 
+  Store the color palette in variables so that
+  it is easier to change
+*/
+:root {
+  --primary-color: #8C30F5;
+  --primary-color-light: white;
+  --secondary-color: grey;
+  --background-color: #ffffff;
+  --text-color: #0A1931;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Remove the default margin from the body tag */
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
